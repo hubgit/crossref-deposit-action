@@ -1,0 +1,17 @@
+name: 'Crossref Deposit Action'
+description: 'Deposit JATS XML to Crossref'
+author: 'Alf Eaton'
+inputs:
+  input:
+    description: 'JATS XML file path'
+    default: 'manuscript.xml'
+  endpoint:
+    description: 'Crossref deposit endpoint'
+    default: 'https://test.crossref.org/servlet/deposit'
+  username:
+    description: 'Crossref username'
+  password:
+    description: 'Crossref password'
+runs:
+  using: 'node12'
+  main: 'src/index.js'

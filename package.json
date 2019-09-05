@@ -1,0 +1,15 @@
+{
+  "name": "crossref-deposit-action",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "src",
+  "files": [
+    "src",
+    "action.yml"
+  ],
+  "dependencies": {
+    "@actions/core": "^1.0.0",
+    "form-data": "^2.5.1",
+    "node-fetch": "^2.6.0"
+  }
+}
