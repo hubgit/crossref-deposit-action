@@ -8,7 +8,7 @@
     "action.yml"
   ],
   "dependencies": {
-    "@actions/core": "^1.0.0",
+    "@actions/core": "^1.2.6",
     "form-data": "^2.5.1",
     "node-fetch": "^2.6.0"
   }
